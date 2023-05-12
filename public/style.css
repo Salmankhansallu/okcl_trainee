@@ -1,0 +1,14 @@
+/* .heading{
+    color: red;
+}
+.tbody tr:nth-child(2n+1){
+background-color: darkgray;
+color: white;
+}
+.tbody tr:nth-child(2n+2){
+    background-color: white;
+    color: darkgrey;
+    } */
+    #myNavbar .nav li a{
+        color: white;
+    }
