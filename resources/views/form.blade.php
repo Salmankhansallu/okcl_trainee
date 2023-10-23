@@ -13,7 +13,7 @@
             <div class="row">
                 <h2  class="text-center" >{{$title}}</h2>
             </div>
-            
+
         </div>
         <div class="container " style="margin:10px;">
             <div class="row">
@@ -34,12 +34,12 @@
                         <x-input type="password" name="password" label="Password" placeholder="Enter Your Password"/>
                         <x-input type="password" name="confirm_password" label="Confirm Password" placeholder="Enter Your Confirm Password"/> --}}
                         <div class="form-group">
-                            <label >Name</label>
+                            <label >Full Name</label>
                             <input type="text" name="name" value="" class="form-control" placeholder="Enter name">
                             <span class="text-danger">
                                 @error('name')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
@@ -50,7 +50,7 @@
                             <span class="text-danger">
                                 @error('email')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
@@ -61,7 +61,7 @@
                             <span class="text-danger">
                                 @error('phone')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
@@ -72,7 +72,7 @@
                             <span class="text-danger">
                                 @error('password')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
@@ -83,7 +83,7 @@
                             <span class="text-danger">
                                 @error('confirm_password')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
@@ -101,7 +101,7 @@
                             <span class="text-danger">
                                 @error('dob')
                                     @php
-                                       echo $message; 
+                                       echo $message;
                                     @endphp
                                 @enderror
                             </span>
